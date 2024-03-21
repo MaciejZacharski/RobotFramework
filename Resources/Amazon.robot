@@ -8,6 +8,7 @@ Resource  ..\\Resources\\PageObject\\CartPage.robot
 Resource  ..\\Resources\\PageObject\\SignInPage.robot
 
 
+
 *** Keywords ***
 Search for products
     LandingPage.Load Amazon Page

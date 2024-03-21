@@ -8,6 +8,10 @@ Test Setup   Begin web test
 Test Teardown  End web test
 
 #run script  robot -d Results test/Amazon.robot
+*** Variables ***
+${BROWSER}    chrome
+${Start_URL}    https://www.amazon.com
+${Search_Term}    Ferrari 458
 
 *** Test Cases ***
 User can search for Products

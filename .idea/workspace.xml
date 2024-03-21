@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e70a5c7-5bc6-4b1c-8227-b3ab3d07fb2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/Amazon.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/PageObject/CartPage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/PageObject/LandingPage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/PageObject/ProductPage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/PageObject/ResultsPage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/PageObject/SignInPage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/PageObject/TopNav.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Amazon.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Amazon.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Amazon.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/PageObject/LandingPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObject/LandingPage.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/PageObject/TopNav.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PageObject/TopNav.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/demo/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/robotframework/firstTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test/firstTest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Amazon.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Amazon.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710795237470</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Page Objects added">
+      <option name="closed" value="true" />
+      <created>1711022169624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711022169625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Robot Framework Script" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Robot Framework Script" />
+    <MESSAGE value="Page Objects added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Objects added" />
   </component>
 </project>

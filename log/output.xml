@@ -1,79 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T12:42:09.887597" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-03-21T16:43:57.997392" rpa="false" schemaversion="5">
 <suite id="s1" name="Amazon" source="C:\development\robot-framework\demo\Test\Amazon.robot">
-<test id="s1-t1" name="User can search for Products" line="13">
+<test id="s1-t1" name="User can search for Products" line="17">
 <kw name="Begin web test" owner="Common" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-03-21T12:42:10.093048" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<msg time="2024-03-21T16:43:58.211819" level="INFO">Opening browser '= chrome' to base url 'about:blank'.</msg>
+<msg time="2024-03-21T16:43:58.212816" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-03-21T16:43:58.212816" level="FAIL">ValueError: =chrome is not a supported browser.</msg>
 <arg>about:blank</arg>
-<arg>chrome</arg>
+<arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-03-21T12:42:10.093048" elapsed="1.284534"/>
+<status status="FAIL" start="2024-03-21T16:43:58.211819" elapsed="0.002992">ValueError: =chrome is not a supported browser.</status>
 </kw>
-<status status="PASS" start="2024-03-21T12:42:10.092050" elapsed="1.285532"/>
-</kw>
-<kw name="Search for products" owner="Amazon">
-<kw name="Load" owner="LandingPage">
-<kw name="Go To" owner="SeleniumLibrary">
-<msg time="2024-03-21T12:42:11.379577" level="INFO">Opening url 'https://www.amazon.com'</msg>
-<arg>https://www.amazon.com</arg>
-<doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2024-03-21T12:42:11.378580" elapsed="1.015286"/>
-</kw>
-<status status="PASS" start="2024-03-21T12:42:11.378580" elapsed="1.015286"/>
-</kw>
-<kw name="Verify Page Loaded" owner="LandingPage">
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Today's Deals</arg>
-<doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-03-21T12:42:12.394863" elapsed="0.029922"/>
-</kw>
-<status status="PASS" start="2024-03-21T12:42:12.393866" elapsed="0.030919"/>
-</kw>
-<kw name="Type in search field" owner="TopNav">
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-03-21T12:42:12.425782" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'.</msg>
-<arg>id=twotabsearchtextbox</arg>
-<arg>Ferrari 458</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-21T12:42:12.425782" elapsed="0.177524"/>
-</kw>
-<status status="PASS" start="2024-03-21T12:42:12.424785" elapsed="0.179519"/>
-</kw>
-<kw name="Click search button" owner="TopNav">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-03-21T12:42:12.604304" level="INFO">Clicking button 'id=nav-search-submit-button'.</msg>
-<arg>id=nav-search-submit-button</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-03-21T12:42:12.604304" elapsed="0.244832"/>
-</kw>
-<status status="PASS" start="2024-03-21T12:42:12.604304" elapsed="0.244832"/>
-</kw>
-<status status="PASS" start="2024-03-21T12:42:11.378580" elapsed="1.471555"/>
+<status status="FAIL" start="2024-03-21T16:43:58.210822" elapsed="0.003989">ValueError: =chrome is not a supported browser.</status>
 </kw>
 <kw name="End web test" owner="Common" type="TEARDOWN">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-03-21T12:42:12.850135" elapsed="2.107339"/>
+<status status="PASS" start="2024-03-21T16:43:58.215808" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-03-21T12:42:12.850135" elapsed="2.107339"/>
+<status status="PASS" start="2024-03-21T16:43:58.214811" elapsed="0.000997"/>
 </kw>
 <doc>Search for Products</doc>
 <tag>Smoke</tag>
-<status status="PASS" start="2024-03-21T12:42:10.091052" elapsed="4.866422"/>
+<status status="FAIL" start="2024-03-21T16:43:58.209824" elapsed="0.005984">Setup failed:
+ValueError: =chrome is not a supported browser.</status>
 </test>
 <doc>This is some basic info about the whole suite</doc>
-<status status="PASS" start="2024-03-21T12:42:09.889591" elapsed="5.068812"/>
+<status status="FAIL" start="2024-03-21T16:43:57.999388" elapsed="0.217418"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">Smoke</stat>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Amazon">Amazon</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon">Amazon</stat>
 </suite>
 </statistics>
 <errors>

@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e70a5c7-5bc6-4b1c-8227-b3ab3d07fb2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/geckodriver-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/demo/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/robotframework/firstTest.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Amazon.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObject/CartPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObject/LandingPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObject/ProductPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObject/ResultsPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObject/SignInPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/PageObject/TopNav.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/selenium-screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Amazon.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/demo/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/robotframework/firstTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test/firstTest.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Robot Framework.run [Should be able to add new customer].executor": "Run",
+    "Robot Framework.run [User can search for Products].executor": "Run",
+    "Robot Framework.run [User can search for products].executor": "Run",
+    "Robot Framework.run [User must sign in to check out].executor": "Run",
+    "Robot Framework.run current file.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -64,6 +70,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\development\robot-framework\demo" />
+      <recent name="C:\development\robot-framework\demo\Test" />
+      <recent name="C:\development\robot-framework\demo\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,9 +86,28 @@
       <option name="presentableId" value="Default" />
       <updated>1710779092085</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Robot Framework Script">
+      <option name="closed" value="true" />
+      <created>1710795155204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710795155204</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Robot Framework Script">
+      <option name="closed" value="true" />
+      <created>1710795237470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710795237470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Robot Framework Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Robot Framework Script" />
   </component>
 </project>
